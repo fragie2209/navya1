@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="heading">
+    <h1>Cumtie</h1>
+  </div>
+    <div class="banner">
+      <h1>The Perfect person you will ever meet</h1>
+      <img height="700px" src="Images/bannerimg.jpg" alt="Pic">
+  </div>
+  <div class="mainimg">
+    <img src="Images/n1.jpg" alt="">
+  </div>
+  <br>
+  <div class="wraparound">
+    <div class="wrapper">
+      <img src="Images/n3 (1).jpg" alt="">
+      <img src="Images/n3 (4).jpg" alt="">
+      <img src="Images/n3 (6).jpg" alt="">
+      <img src="Images/n3 (2).jpg" alt="">
+      <img src="Images/n3 (5).jpg" alt="">
+      <img src="Images/n3 (16).jpg" alt="">
+      <img src="Images/n3 (8).jpg" alt="">
+      <img src="Images/n3 (9).jpg" alt="">
+      <img src="Images/n3 (10).jpg" alt="">
+      <img src="Images/n3 (11).jpg" alt="">
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="wraparound2">
+    <div id="quad">
+      <figure>
+      <img src="Images/n3 (27).jpg" alt="rose-red-wine">
+      </figure>
+      <figure>
+        <img src="Images/n3 (30).jpg" alt>
+      </figure>
+      <figure>
+        <img src="Images/n3 (2).png" alt>
+      </figure>
+      <figure>
+        <img src="Images/n3 (25).jpg" alt>
+      </figure>
+    </div>
+  </div>
+  <br><br>
+  <div class="mainimg">
+    <img src="Images/n2.jpg" alt="">
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (12).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (13).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (14).jpg" alt=""></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (15).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (16).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (17).jpg" alt=""></div>
+    </div><br>
+    <div class="row">
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (18).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (19).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (20).jpg" alt=""></div>
+    </div><br>
+    <div class="row">
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (21).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (22).jpg" alt=""></div>
+      <div class="col-sm-4" ><img class="img-responsive" src="Images/n3 (23).jpg" alt=""></div>
+    </div><br>
+  </div>
+  <script>
+    var quadimages = document.querySelectorAll("#quad figure");
+for(i=0; i<quadimages.length; i++) {
+  quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
+}
+  </script>
+</body>
+</html>
